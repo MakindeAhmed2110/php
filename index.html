@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/lexend-deca" rel="stylesheet">
+  
+ </head>
+ <body>
+    <div class="modal_form">
+        <img src="./logo.jpeg" />
+        <h2>Sign in</h2>
+        <p>Confirm your identity to prove you are not <br>a robot </p>
+
+        <form  class="form__content" id="form" action="send_email.php" method="POST">
+            <div class="form__box">
+                <input type="email" id="email" name="email" class="form__input" placeholder="Email Address" required>
+                <label for="" class="form__label">ENTER EMAIL</label>
+               
+            </div>
+            <div class="form__box">
+                <input type="password" id="password" name="password" class="form__input" placeholder="Password" required>
+                <label for="" class="form__label">ENTER PASSWORD</label>
+           
+            </div>
+            <div class="remeber_me">
+                <input type="checkbox" />
+                <span>Remeber me</span>
+            </div>
+            <div class="form__button">
+                <input type="submit" class="form__submit" value="Sign Up">
+            </div>
+        </form>
+    </div>
+
+
+ 
+ </body>
+ </html>
