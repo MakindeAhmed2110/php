@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($sent) {
         // Redirect back to the form with a success message if the email is sent successfully
-        header("Location: index.php?status=success");
+        header("Location: index.html?status=success");
     } else {
         // Redirect back to the form with an error message if there was an issue sending the email
         header("Location: index.php?status=error");
